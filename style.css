@@ -1,0 +1,102 @@
+/* Custom Styles */
+
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit; /* Ensures default link color */
+}
+
+/* Highlighted Link */
+.highlighted-link {
+    color: #007bff; /* Distinct color */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition */
+}
+
+.highlighted-link:hover {
+    background-color: #e0f7ff; /* Light blue background on hover */
+    color: #0056b3; /* Slightly darker blue text on hover */
+}
+
+/* Navigation Bar */
+nav a {
+    transition: color 0.3s ease;
+}
+
+.right-aligned {
+    float: right;
+}
+
+nav a:hover {
+    color: #4CAF50;
+}
+
+/* Hero Section */
+#home {
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+/* About Section */
+#about {
+    background-color: #F9FAFB;
+}
+
+/* Portfolio Section */
+#portfolio {
+    background-color: #F3F4F6;
+}
+
+/* Contact Section */
+#contact {
+    background-color: #ffffff;
+}
+
+/* Footer Section */
+
+/* Custom Styles */
+footer {
+    padding: 1rem;
+    background-color: #F9FAFB;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.875rem; /* Example font size */
+}
+
+/* Adjust logo size */
+footer img {
+    height: 32px; /* Example height */
+    width: auto;
+    margin-left: 1rem; /* Example margin */
+}
+
+footer a {
+    transition: color 0.3s ease;
+}
+
+/* footer a:hover {
+    color: #4CAF50;
+} */
+
+.flex .p-2 a {
+    color: #4CAF50;
+}
+
+.text-gray-500 {
+    color: #6B7280; /* Example color */
+}
+
+.mx-2 {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+.fa-2x {
+    font-size: 2em;
+}
